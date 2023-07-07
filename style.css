@@ -1,0 +1,28 @@
+*/RESET SIMPLES*/
+*{
+    margin: 0;
+}
+
+:root{
+    --preto:#000000;
+    --branco:#ffffff;
+
+}
+
+body{
+    background-color: var(--preto);
+    
+}
+#titulo{
+    color: var(--branco);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.quebra-cabeca{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
